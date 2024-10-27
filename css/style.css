@@ -1,0 +1,149 @@
+:root {
+	--color-principle: rgb(217,217,217);
+	--color-font: rgb(28,30,28);
+	--color-font-highlight: rgb(28,30,28);
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--font-size-word: 16px;
+	--font-size-menu: 20px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.body {
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: auto auto 1fr auto;
+	min-height: 100vh;
+}
+
+.principle-header {
+	display: flex;
+	height: auto;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.conteiner_logo_asoprofasil {
+	display: flex;
+	width: 100px;
+	height: 70px;
+}
+
+.logo_asoprofasil {
+	width: 100%;
+	object-fit: cover;
+}
+
+.conteiner_list-header {
+	opacity: 0;
+	visibility: hidden;
+
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #ffffff;
+}
+
+.conteiner_list-header.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+.header-list_header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--color-principle);
+}
+
+.close_menu {
+	width: 50px;
+	height: 50px;
+	margin: 15px 15px 0 0;
+}
+
+.list-header {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	list-style: disc;
+}
+
+.item_list-header {
+	padding: 15px;
+	font-size: var(--font-size-menu);
+	color: var(--color-black);
+	text-decoration: none;
+}
+
+.nav {
+	display: fixed;
+	width: 100%;
+	height: auto;
+	background: var(--color-principle);
+}
+
+.list_nav {
+	display: flex;
+	list-style: none;
+}
+
+.item-list_nav {
+	padding: 5px;
+	color: var(--color-font-highlight);
+	text-decoration: none;
+}
+
+.todos {
+	font-weight: 200;
+}
+
+.link_condition {
+	text-decoration: none;
+}
+
+.condition {
+	padding: 5px;
+	color: var(--color-font);
+	font-weight: 200;
+}
+
+.principle-footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	align-items: center;
+}
+
+.section_1-footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 10px;
+	align-items: center;
+	border-bottom: 1px solid var(--color-principle);
+}
+
+.section_2-footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 5px;
+	align-items: center;
+}
+
+
