@@ -121,6 +121,20 @@
 	font-weight: 200;
 }
 
+.conteiner_dog {
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+}
+
+.article_dog {
+	width: 45%;
+	border: 1px solid var(--color-principle);
+}
+
 .principle-footer {
 	display: flex;
 	flex-direction: column;

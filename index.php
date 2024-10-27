@@ -45,10 +45,14 @@
 	</nav>
 	<main class="principle-main">
 		<a href="" class="link_condition"><p class="condition">CONDICIONES DE ADOPCIÓN</p></a>
-		<section class="conteiner_dog"></section>
+		<section class="conteiner_dog">
+			<?php
+				include 'php/main.php';
+			?>
+		</section>
 	</main>
 	<footer class="principle-footer">
-		<section class="section_1-footer">
+		<section class="section_1-footer"> 
 			<p class="word-footer">SIGUENOS:</p>
 			<a href="https://www.instagram.com/asoprofasil/?hl=es" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-3x" style="color:rgb(28,30,28);"></i></a>
 		</section>
