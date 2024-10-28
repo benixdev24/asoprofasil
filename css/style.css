@@ -8,6 +8,10 @@
 	--font-size-menu: 20px;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -20,7 +24,7 @@
 
 .body {
 	display: grid;
-	grid-template-columns: 100vw;
+	grid-template-columns: 100%;
 	grid-template-rows: auto auto 1fr auto;
 	min-height: 100vh;
 }
