@@ -29,9 +29,6 @@
 				<a href="" class="item_list-header"><li>¿Quienes somos?</li></a>
 				<a href="" class="item_list-header"><li>Donaciones</li></a>
 				<a href="" class="item_list-header"><li>Contactanos</li></a>
-				
-				
-				
 			</ul>
 		</div>
 	</header>
