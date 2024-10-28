@@ -18,9 +18,13 @@
 	font-style: normal;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 .body {
 	display: grid;
-	grid-template-columns: 100vw;
+	grid-template-columns: 100%;
 	grid-template-rows: auto auto 1fr auto;
 	min-height: 100vh;
 }
@@ -111,6 +115,12 @@
 	font-weight: 200;
 }
 
+.principle-main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
 .link_condition {
 	text-decoration: none;
 }
@@ -131,7 +141,8 @@
 }
 
 .article_dog {
-	width: 45%;
+	width: clamp(100px, 150px, 200px);
+	height: clamp(100px, 200px, 250px);
 	border: 1px solid var(--color-principle);
 }
 

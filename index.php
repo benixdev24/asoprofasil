@@ -47,7 +47,7 @@
 		<a href="" class="link_condition"><p class="condition">CONDICIONES DE ADOPCIÓN</p></a>
 		<section class="conteiner_dog">
 			<?php
-				include 'php/main.php';
+				include 'php/dog.php';
 			?>
 		</section>
 	</main>
