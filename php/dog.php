@@ -12,7 +12,7 @@
 		foreach ($infoDogs as $dog) {
 			echo '
 			<article class="article_dog">
-				<img href="'.$dog['photo'].'">
+				<img src="'.$dog['photo'].'" class="img_dog">
 				<h2>'.$dog['name'].'</h2>
 				<p>'.$dog['gender'].'</p>
 				<p>'.$dog['time'].
